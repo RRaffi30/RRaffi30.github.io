@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <title>XI RPL 2</title>
+
+</head>
+
+<body>
+    
+    <!--Time-->
+    <script>
+        function refreshTime() {
+        const timeDisplay = document.getElementById("time");
+        const dateString = new Date().toLocaleString();
+        const formattedString = dateString.replace(", ", " - ");
+        timeDisplay.textContent = formattedString;
+        }
+        setInterval(refreshTime, 1000);
+    </script>
+    <P align="center" style="color:white;"><span id="time"> </span></P>
+
+    
+    <!--Logo SMK-->
+    <p align="center"><a href="https://smkn2semarang.sch.id/"><img class="Logo" src="logo.png" alt="Logo SMK 2 SEMARANG" width="150px"></a></p>
+
+    <!--Header-->
+    <i><b><h1 class="head">SMK NEGERI 2 SEMARANG</h1>
+    <h1 class="head">XI RPL 2</h1></b></i>
+
+    <table align="center" width="450" class="table">
+        <tr><td>
+
+    <!--List-->
+    <table align="center" width="250px"><tr><td>
+        <a href="php.php" style="text-decoration:none;">
+    <h2 class="List"><br>Jadwal Pelajaran<br><br></h2>
+        </a>
+    </td></tr></table>
+        </td></tr>
+
+        <tr><td>
+    <table align="center" width="250px"><tr><td>
+        <a href="jam.html" style="text-decoration:none;">
+    <h2 class="List"><br>Jam Pelajaran<br><br></h2>
+        </a>
+    </td></tr></table>
+        </td></tr>
+
+        <tr><td>
+    <table align="center" width="250px"><tr><td>
+        <a href="siswa.html" style="text-decoration:none;">
+    <h2 class="List"><br>Siswa<br><br></h2>
+        </a>
+    </td></tr></table>
+        </td></tr>
+
+    </table>
+
+</body>
+
+</html>

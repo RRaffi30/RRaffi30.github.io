@@ -1,0 +1,84 @@
+.head{
+    color:red;
+    text-align: center;
+}
+
+.DL{
+    float:right;
+}
+
+.Logo{
+    border-color: rgb(40, 40, 60);
+    border-style: solid;
+}
+
+.Logo:hover{
+    border-style: dashed;
+    border-color: black;
+}
+
+.List{
+    text-align: center;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: white;
+    background-color: cyan;
+
+    color:black;
+}
+
+.List:hover{
+    color:white;
+    background-color: blue;
+    border-style: dashed;
+    border-color: black;
+}
+
+.table{
+    background-color: rgb(30, 36, 49);
+    border-style: solid;
+    border-color: grey;
+    border-radius: 40px;   
+}
+
+body{
+    background-color: rgb(40, 40, 60);
+}
+
+.jadwal{
+    color:white;
+    background-color: rgb(30, 36, 49);
+    border-color: white;
+    border-style: solid;
+}
+
+.jam{
+    color:white;
+    background-color: rgb(30, 36, 49);
+    border-color: white;
+    border-style: solid;
+}
+
+.siswa{
+    color:white;
+    background-color: rgb(30, 36, 49);
+    border-color: white;
+    border-style: solid;
+}
+
+.back:hover{
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: rgb(30, 36, 49);
+}
+
+.back{
+    color:black;
+    text-align: center;
+    border-style: dashed;
+    border-radius: 20px;
+    border-color: white;
+    background-color: rgb(40, 40, 60);
+}
